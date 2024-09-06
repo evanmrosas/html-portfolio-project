@@ -1,0 +1,12 @@
+#name{
+    text-shadow: 2px 2px 5px gray;
+}
+body{
+    background-color: rgb(239, 245, 250);
+}
+.nav-link-custom{
+    color: grey;
+}
+#active{
+    color:blueviolet
+}

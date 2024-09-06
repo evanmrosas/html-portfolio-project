@@ -1,0 +1,15 @@
+.embolden{
+    font-weight: 600;
+}
+h2{
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(239, 245, 250);
+}
+.nav-link-custom{
+    color: grey;
+}
+#active{
+    color:blueviolet
+}
