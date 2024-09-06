@@ -9,8 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar bg-body-tertiary">
-        <div class="container d-flex justify-content-center">
+    <nav class="navbar bg-body-tertiary navbar-custom">
+        <div>
             <ul class="nav nav-tabs">
                 <li class="nav-item">
                   <a class="nav-link active" id="active" aria-current="page" href="http://127.0.0.1:5500/templates/home-page.html">Home</a>
@@ -21,13 +21,13 @@
                 <li class="nav-item">
                     <a class="nav-link nav-link-custom" href="http://127.0.0.1:5500/templates/experience-page.html">Experience</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-custom" href="http://127.0.0.1:5500/templates/portfolio-page.html">Portfolio</a>
-                </li>
-              </ul>
+            </ul>
         </div>
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Contact
+        </button>
     </nav>
-    <div class="container d-flex flex-column justify-content-center align-items-center min-vh-100">
+    <div class="container d-flex flex-column justify-content-center align-items-center">
         <p>Software Engineer</p>
         <h1 id="name">Evan Rosas</h1>
         <div>
@@ -35,5 +35,23 @@
         </div>
     </div>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Github: evanmrosas
+            </div>
+          </div>
+        </div>
+    </div>
 </body>
+<footer>
+    <div class="container">
+        <p>Copyright © 2024 Evan Rosas. All rights reserved.</p>
+    </div>
+</footer>
 </html>
